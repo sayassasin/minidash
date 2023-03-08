@@ -15,6 +15,7 @@ type indexWrapper struct {
 	Links  *[]types.Link
 	Filter *map[string]string
 	Title  *string
+	Badges *[]types.Badge
 }
 
 func NewIndexController(config *types.Configuration) *IndexController {
@@ -34,6 +35,7 @@ func (c *IndexController) GetIndex(ctx echo.Context) error {
 		Links:  &c.Config.Links,
 		Filter: &c.Config.Filter,
 		Title:  c.Config.MetaData.Title,
+		Badges: &c.Config.Badges,
 	}
 	return ctx.Render(http.StatusOK, "index.html", &wrapper)
 }

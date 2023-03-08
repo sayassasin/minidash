@@ -1,6 +1,17 @@
 port: 1234
 metadata:
   title: Dashboard
+badges:
+  - Badge: https://github.com/sayassasin/minidash/actions/workflows/build.yaml/badge.svg
+    Link: https://google.com
+  - Badge: https://github.com/sayassasin/minidash/actions/workflows/build.yaml/badge.svg
+    Link: https://google.com
+  - Badge: https://github.com/sayassasin/minidash/actions/workflows/build.yaml/badge.svg
+    Link: https://google.com
+  - Badge: https://github.com/sayassasin/minidash/actions/workflows/build.yaml/badge.svg
+    Link: https://google.com
+  - Badge: https://github.com/sayassasin/minidash/actions/workflows/build.yaml/badge.svg
+    Link: https://google.com
 links:
   - Group: Google
     Title: Cloud Console

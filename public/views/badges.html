@@ -1,0 +1,9 @@
+{{define "badges"}}
+<ul class="nav justify-content-center">
+    {{range $element := .}}
+    <li class="nav-item">
+        <a href={{.Link}} target="_blank" class="nav-link"><img src={{.Badge}} />  </a>
+    </li>
+    {{end}}
+</ul>
+{{end}}
