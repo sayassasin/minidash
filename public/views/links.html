@@ -1,0 +1,16 @@
+{{define "links"}}
+<div class="row row-cols-3">
+    {{range $index, $element := .}}
+    <div class="col mb-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">{{$element.Title}}</h5>
+                <p class="card-text">{{$element.Group}} </p>
+                <a href="#" class="card-link">{{$element.Link}}</a>
+                <a href="#" class="card-link">{{$index}}</a>
+            </div>
+        </div>
+    </div>
+    {{end}}
+</div>
+{{end}}

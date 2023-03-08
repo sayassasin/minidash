@@ -1,0 +1,46 @@
+port: 1234
+metadata:
+  title: Dashboard
+links:
+  - Group: Google
+    Title: Cloud Console
+    Link: https://console.cloud.google.com
+  - Group: Service1
+    Title: SwaggerUI
+    Link: https://google.com
+  - Group: Google
+    Title: Cloud Console
+    Link: https://console.cloud.google.com
+  - Group: Service1
+    Title: SwaggerUI
+    Link: https://google.com
+  - Group: Google
+    Title: Cloud Console
+    Link: https://console.cloud.google.com
+  - Group: Service1
+    Title: SwaggerUI
+    Link: https://google.com
+  - Group: Google
+    Title: Cloud Console
+    Link: https://console.cloud.google.com
+  - Group: Service1
+    Title: SwaggerUI
+    Link: https://google.com
+  - Group: Google
+    Title: Cloud Console
+    Link: https://console.cloud.google.com
+  - Group: Service1
+    Title: SwaggerUI
+    Link: https://google.com
+  - Group: Google
+    Title: Cloud Console
+    Link: https://console.cloud.google.com
+  - Group: Service1
+    Title: SwaggerUI
+    Link: https://google.com
+  - Group: Google
+    Title: Cloud Console
+    Link: https://console.cloud.google.com
+  - Group: Service1
+    Title: SwaggerUI
+    Link: https://google.com
